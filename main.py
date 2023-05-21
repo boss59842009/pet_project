@@ -1,4 +1,4 @@
-import play
+import play# import
 
 text1 = play.new_text(words='г - гладити, з - зіграти, с - спати', font_size=30, x=0,
                       y=play.screen.top-20)

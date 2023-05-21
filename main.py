@@ -9,8 +9,8 @@ player = play.new_image(image='1.png', x=0, y=0, size=150)
 speech = play.new_text(words=None, x=0, y=play.screen.bottom+20)
 speech.words = "Привіт, давай дружити!"
 eat = True
-print("Hello")
-@play.when_program_starts
+
+@play.when_program_starts# коли програма запускається
 def start():
     pass
 
